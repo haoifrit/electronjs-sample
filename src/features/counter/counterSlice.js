@@ -62,7 +62,7 @@ export const counterSlice = createSlice({
       })
       .addCase(incrementFailedAsync.rejected, (state, action) => {
         state.status = 'failed';
-        state.value = '×';
+        state.value = 0;
       });
   },
 });
