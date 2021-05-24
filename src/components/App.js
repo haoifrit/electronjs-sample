@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import {Login} from './features/logins/Login';
-import './App.css';
+import logo from '../public/logo.svg';
+import { Counter } from '../features/counter/Counter';
+import {Login} from '../features/logins/Login';
+import '../css/App.css';
 
 function App() {
   return (
